@@ -31,8 +31,8 @@ def process_panorama(input_path, output_dir):
         print(f'已保存 {output_path}')
 
 if __name__ == '__main__':
-    input_dir = 'E:/PPT/20250326/insta360/04_grassland/input'  # 输入全景图目录
-    output_dir = 'E:/PPT/20250326/insta360/04_grassland/output'  # 输出立方体贴图目录
+    input_dir = 'E:/PPT/20250326/insta360/01_sofa/input'  # 输入全景图目录
+    output_dir = 'E:/PPT/20250326/insta360/01_sofa/output'  # 输出立方体贴图目录
     
     # 创建输出目录（如果不存在）
     os.makedirs(output_dir, exist_ok=True)
